@@ -110,7 +110,7 @@ left_container.place(x=0, y=0)
 
 # Add the logo.png on the top left corner of the left container
 logo_image = Image.open("assets\\logo.png")
-logo_image = logo_image.resize((100, 100), Image.ANTIALIAS)
+logo_image = logo_image.resize((100, 100), Image.Resampling.LANCZOS)
 logo_photo = ImageTk.PhotoImage(logo_image)
 
 logo_label = tk.Label(left_container, image=logo_photo, bg="#ffffff")
@@ -148,14 +148,14 @@ right_container.place(x=350, y=0)
 
 # Load and display the image.png on the right container
 image = Image.open("assets\\image.jpg")
-image = image.resize((450, 400), Image.ANTIALIAS)
+image = image.resize((450, 400), Image.Resampling.LANCZOS)
 photo = ImageTk.PhotoImage(image)
 image_label = tk.Label(right_container, image=photo)
 image_label.place(x=0, y=0)
 
 # Load the background image
 bg_image = Image.open("assets\\bg_image.png")
-bg_image = bg_image.resize((440, 370), Image.ANTIALIAS)
+bg_image = bg_image.resize((440, 370), Image.Resampling.LANCZOS)
 bg_photo = ImageTk.PhotoImage(bg_image)
 
 # Add texts on the image of the right container
