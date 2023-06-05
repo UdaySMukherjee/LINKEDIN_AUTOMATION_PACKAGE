@@ -102,6 +102,7 @@ def start_automation():
 window = tk.Tk()
 window.title("Custom Tkinter Containers")
 window.geometry("800x400")
+window.resizable(width=False, height=False)  # Disable window resizing
 
 # Create the left container
 left_container = tk.Frame(window, bg="#ffffff", width=400, height=400)
