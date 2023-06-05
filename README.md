@@ -24,7 +24,7 @@ This project is a Python script that automates LinkedIn actions using the Seleni
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Make sure you have the Chrome browser installed.
 4. Set your LinkedIn credentials, search query, and the number of connection requests in the script.
-5. Run the script: `python automation_script.py`
+5. Run the script: `python LINKEDIN_BOT.py`
 6. The GUI window will appear. Enter your username, password, and other details.
 7. Click on the "Do Automate" button to start the automation process.
 8. Sit back and watch as the script automates the connection request sending process.
