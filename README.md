@@ -1,6 +1,6 @@
 # LinkedIn Automation Tool
 
-![alt text](https://i.imgur.com/F7ZHRoy.png)
+![alt text](https://i.imgur.com/ZMOPtkj.png)
 
 ## Overview
 This project is a Python script that automates LinkedIn actions using the Selenium library. It allows users to log in to LinkedIn, search for users based on a query, and send connection requests. The script uses image recognition to locate and interact with buttons on the LinkedIn website.
