@@ -100,7 +100,7 @@ def start_automation():
 
 # Create the main window
 window = tk.Tk()
-window.title("Custom Tkinter Containers")
+window.title("Linkedin Automation Tool")
 window.geometry("800x400")
 window.resizable(width=False, height=False)  # Disable window resizing
 
