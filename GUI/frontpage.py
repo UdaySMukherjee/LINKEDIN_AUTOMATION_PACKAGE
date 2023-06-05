@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 
 # Create the main window
 window = tk.Tk()
-window.title("Custom Tkinter Containers")
+window.title("Linkedin Automation Tool")
 window.geometry("800x400")
 
 # Create the left container
