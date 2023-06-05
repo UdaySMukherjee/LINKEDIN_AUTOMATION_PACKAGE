@@ -20,7 +20,7 @@ This project is a Python script that automates LinkedIn actions using the Seleni
 - GitHub (Version control and repository hosting)
 
 ## How to Use
-1. Clone the repository: `git clone https://github.com/your-username/linkedin-automation.git`
+1. Clone the repository: `git clone https://github.com/UdaySMukherjee/LINKEDIN_AUTOMATION_PACKAGE`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Make sure you have the Chrome browser installed.
 4. Set your LinkedIn credentials, search query, and the number of connection requests in the script.
