@@ -16,24 +16,11 @@ import pyautogui as auto
 USERNAME = input("Enter Linkedin Email")
 PASSWORD = input("Enter Linkedin Password")
 
-"""
-USERNAME = "udaysankar2003@gmail.com"
-PASSWORD = "USM@110803"
-"""
-
 # Set the number of connection requests to send
 NUM_REQUESTS = int(input("Entar Max Requests You want to send(<10)"))
 
-'''
-NUM_REQUESTS = 2
-'''
-
 # Set the search query to find users
 SEARCH_QUERY = input("Enter the Search Query")
-
-'''
-SEARCH_QUERY = "Robotics Engineer"
-'''
 
 # Configure the Selenium webdriver
 options = webdriver.ChromeOptions()
